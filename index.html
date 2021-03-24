@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style/style.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="box"></div>
+	<div>
+		<div>
+			<p>
+				<a href="#">Link</a>
+			<p>
+				<a href="#">Link</a>
+			</p>
+			</p>
+		</div>
+		<p id="text" class="text-main">
+			<a href="#">Link</a>
+		</p>
+		<a href="#">Link</a>
+	</div>
+	<!-- 
+.text меньше вес чем p.text
+#text больше вес чем p.text
+p.text меньше вес чем p#text
+div p a p.text меньше вес чем #text
+div p.text#text-main меньше вес чем <p style=" color: red"></p>
+div div div div.point меньше вес чем div.point div div
+!important больше вес <p style=" color: red"></p>
+div > div ~ p меньше вес чем p.text 
+-->
+	<table>
+		<td>
+			<div class="box1"></div>
+		</td>
+		<td>
+			<div class="box2"></div>
+		</td>
+		<tr>
+			<td>
+				<div class="box3"></div>
+			</td>
+			<td>
+				<div class="box4"></div>
+			</td>
+		</tr>
+	</table>
+
+</body>
+
+</html>
