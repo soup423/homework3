@@ -10,10 +10,13 @@
 	border-radius: 15px;
 }
 
+
 div div p a{
 	color: rgb(59, 128, 59);
 	text-decoration: none;
 }
+
+
 .text {
 	color: red;
 	text-decoration: solid;
@@ -77,4 +80,20 @@ div.box4:active{
 	background-color:rgb(33, 54, 54);
 	border-style: inset solid dotted;
 	border-radius: 56px;
-	border-color: rgb(169, 174, 175);}
+	border-color: rgb(169, 174, 175);
+}
+.after {
+	background-color: khaki;
+	position: relative;
+	height: 90px;
+	width: 50px;
+	border: 1px solid black;
+	transform: rotate(90deg);
+	margin: 40px auto;
+} 
+.after:after {
+   content: ".";
+    position: relative;
+    right: -90px;
+	 top: 30px;
+} 
