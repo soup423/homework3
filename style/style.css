@@ -15,21 +15,20 @@ div div p a{
 	color: rgb(59, 128, 59);
 	text-decoration: none;
 }
-
-
-.text {
+div div a {
+	color: rgb(38, 26, 151);
+	text-decoration: none;
+}
+div p a {
 	color: red;
 	text-decoration: solid;
 }
 
-p.text-main a{
-	color: red;
+div a {
+	color: rgb(160, 197, 73);
 	text-decoration: line-through;
 }
-a {
-	color: violet;
-	text-decoration-line:overline;
-}
+
 table {
 	margin: 0px auto;
 }
